@@ -73,10 +73,11 @@ ul.main_menu li.active {
     margin-left: -4px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Montserrat, sans-serif;
 }
-
 
 h1 {
     text-transform: uppercase;
@@ -117,30 +118,29 @@ h3 {
     letter-spacing: 3px;
 }
 
-
 p.slider_controls {
     text-align: center;
     margin: 140px auto 0;
     line-height: 1;
 }
 
-#first_slide, #third_slide {
-	width: 30px;
-	height: 30px;
-	border-radius: 100%;
-	display: inline-block;
-	background-color: #c7c7c7;
+#first_slide,
+#third_slide {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #c7c7c7;
 }
 
 #second_slide {
-	width: 40px;
-	height: 40px;
-	border-radius: 100%;
-	display: inline-block;
-	background-color: #212121;
-	margin: -5px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #212121;
+    margin: -5px 10px;
 }
-
 
 .featured_products {
     padding: 120px 90px;
@@ -169,12 +169,11 @@ p.slider_controls {
 .menu2 li.active a {
     color: #212121;
     font-weight: 700;
-    }
+}
 
 .menu2 li.active {
     border-bottom: 3px solid #212121;
 }
-
 
 .explore_all a {
     font-family: Montserrat, sans-serif;
@@ -191,38 +190,24 @@ p.slider_controls {
 
 .product_menu {
     list-style-type: none;
-    float: right;
-    margin-right: 211px;
+    float: left;
+    height: 260px;
+        text-align: center;
 }
 
-ul.product_menu {
-    padding: 0;
-    margin: 0;
+.product_descroption {
+    outline: 1px solid #e3e3e3;
 }
 
-ul.product_menu li {
-    float: right;
-    padding: 0 12px 10px 12px;
-    cursor: pointer;
+.product_menu li {
+    margin-left: 2.66%;
+    float: left;
+    background-image: url(../img/product-1.png);
 }
 
-ul.product_menu li a {
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
-    color: #8c8c8c;
-    font-weight: 300;
-}
+.product_menu li a {}
 
-ul.product_menu li.active a {
-    font-weight: 700;
-    color: #212121;
-}
-
-ul.product_menu li.active {
-    border-bottom: 3px solid #212121;
-}
+.product_menu li.active a {}
 
 .promo-product {
     height: 683px;
@@ -273,7 +258,6 @@ ul.product_menu li.active {
 }
 
 .h1HD {
-    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     color: #e53935;
     font-size: 18px;
